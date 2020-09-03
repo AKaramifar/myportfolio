@@ -28,22 +28,22 @@ Proactive, dedicated, self-motivated person with a wide range of transferable sk
  - Architecture, Maintenance and Installation Network
  - Microsoft Server software and architecture (including key components such as IIS and NLB)
 
-## Technical Support Field Engineer
-## Bistoon Telecom,IRAN                                                                                     2013 MAY - SEP 2015
+### Technical Support Field Engineer
+### Bistoon Telecom,IRAN                                                                                     2013 MAY - SEP 2015
  - Installing and configuring Network equipment
  - Managing Network Configs and Design
  - Fault Finding and maintenance 
 
-## Education and Qualifications
+### Education and Qualifications
  - BEng in Software Engineering (IRAN, Rasht University 2013)
  - Advanced Diploma in Software Engineering. (IRAN)
  - Certificate of high school completion.(Equivalent to 5 GCSE)
  - Cisco certificate (from Iranian College)
  - Security Certified HIKVISION Certified Security Associate
 
-## Interests
+### Interests
  - Hiking ,Camping
  - Cycling ,swimming
  - Fitness
 
-## References Available on Request
+### References Available on Request
