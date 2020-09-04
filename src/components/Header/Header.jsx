@@ -7,7 +7,7 @@ const Header = ({ selectedNav, selectNav }) => {
     <div className="header animate__animated animate__fadeInDown">
       <div className="header-logo">
         <p>
-          &#123;&nbsp;<strong>/* AFSHIN KARAMIFAR */</strong>&nbsp;&#125;
+          &#123;&nbsp;<strong>&#x0002F;* AFSHIN KARAMIFAR *&#x0002F;</strong>&nbsp;&#125;
         </p>
       </div>
       <div className="header-navbar">
@@ -17,7 +17,7 @@ const Header = ({ selectedNav, selectNav }) => {
           to="intro"
           offset={0}
           containerId="body"
-          smooth={true}          
+          smooth={true}
           duration={1000}
         >
           <hr />
