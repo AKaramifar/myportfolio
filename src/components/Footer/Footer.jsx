@@ -3,7 +3,7 @@ import "./Footer.scss";
 
 const Footer = () => {
   return (
-    <div className="footer">
+    <div className="footer animate__animated animate__fadeInUp">
       <a href="https://www.linkedin.com/in/afshin-karamifar-b13733180"  target="_blank" rel="noopener noreferrer">
         <i class="fab fa-linkedin-in"></i>
       </a>

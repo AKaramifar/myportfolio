@@ -4,7 +4,7 @@ import "./LeftNavBar.scss";
 
 const LeftNavBar = ({ selectedNav, selectNav }) => {
   return (
-    <div className="left-navbar">
+    <div className="left-navbar animate__animated animate__fadeInUp">
       <div className="left-nav-container">
         <div className="nav-items">
           <Link
@@ -13,6 +13,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("INTRO")}
             to="intro"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -25,6 +26,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("ABOUT")}
             to="about"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -37,6 +39,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("SKILLS")}
             to="skills"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -51,6 +54,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("EDUCATION")}
             to="education"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -65,6 +69,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("EXPERIENCE")}
             to="experience"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -77,6 +82,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("PROJECTS")}
             to="projects"
+            offset={0}
             containerId="body"
             smooth={true}            
             duration={1000}
@@ -89,6 +95,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             }
             onClick={() => selectNav("CONTACT")}
             to="contact"
+            offset={0}
             containerId="body"
             smooth={true}
             duration={1000}

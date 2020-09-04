@@ -11,7 +11,7 @@
   align-items: center;
   justify-content: space-around;
   flex-wrap: wrap;
-  height: 70%;
+  height: 50%;
 }
 .nav-items {
   width: 40px;
@@ -28,13 +28,13 @@
   transition: 300ms;
 }
 .circle:hover {
-  border: 4px solid #23c6ec;
+  border: 2px solid #23c6ec;
   width: 17px;
   height: 17px;
   cursor: pointer;
 }
 .left-nav-selected {
-  border: 4px solid #23c6ec;
+  border: 2px solid #23c6ec;
   width: 17px;
   height: 17px;
   :hover {

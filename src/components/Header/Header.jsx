@@ -4,11 +4,11 @@ import "./Header.scss";
 
 const Header = ({ selectedNav, selectNav }) => {
   return (
-    <div className="header">
+    <div className="header animate__animated animate__fadeInDown">
       <div className="header-logo">
         <p>
           {" "}
-          &#123;&nbsp;<strong>PORTFOLIO</strong>&nbsp;&#125;
+          &#123;&nbsp;<strong>AFSHIN KARAMIFAR</strong>&nbsp;&#125;
         </p>
       </div>
       <div className="header-navbar">
@@ -16,6 +16,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "INTRO" ? "header-nav-selected" : null}
           onClick={() => selectNav("INTRO")}
           to="intro"
+          offset={0}
           containerId="body"
           smooth={true}          
           duration={1000}
@@ -27,6 +28,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "ABOUT" ? "header-nav-selected" : null}
           onClick={() => selectNav("ABOUT")}
           to="about"
+          offset={0}
           containerId="body"
           smooth={true}
           duration={1000}
@@ -38,6 +40,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "SKILLS" ? "header-nav-selected" : null}
           onClick={() => selectNav("SKILLS")}
           to="skills"
+          offset={0}
           containerId="body"
           smooth={true}
           duration={1000}
@@ -49,6 +52,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "EDUCATION" ? "header-nav-selected" : null}
           onClick={() => selectNav("EDUCATION")}
           to="education"
+          offset={0}
           containerId="body"
           smooth={true}
           duration={1000}
@@ -62,6 +66,7 @@ const Header = ({ selectedNav, selectNav }) => {
           }
           onClick={() => selectNav("EXPERIENCE")}
           to="experience"
+          offset={0}
           containerId="body"
           smooth={true}
           duration={1000}
@@ -73,6 +78,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "PROJECTS" ? "header-nav-selected" : null}
           onClick={() => selectNav("PROJECTS")}
           to="projects"
+          offset={0}
           containerId="body"
           smooth={true}
           duration={1000}
@@ -85,6 +91,7 @@ const Header = ({ selectedNav, selectNav }) => {
           onClick={() => selectNav("CONTACT")}
           containerId="body"
           to="contact"
+          offset={0}
           spy={true}
           smooth={true}
           duration={1000}

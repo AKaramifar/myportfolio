@@ -3,9 +3,21 @@
   margin: 0px;
   padding: 0px;
 }
+@keyframes FadeIn{
+  from{
+      opacity: 0;
+  }
+  to{
+      opacity: 1
+  }
+}
+body{
+  animation: FadeIn 2500ms;
+}
 ::selection {
   color: white;
   border-radius: 5px;
+  background-color: #23c6ec;
 }
 ::-webkit-scrollbar {
   width: 0px;
