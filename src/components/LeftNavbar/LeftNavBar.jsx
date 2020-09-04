@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import "./LeftNavBar.scss";
 
 const LeftNavBar = ({ selectedNav, selectNav }) => {
@@ -6,60 +7,92 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
     <div className="left-navbar">
       <div className="left-nav-container">
         <div className="nav-items">
-          <div
+          <Link
             className={
               selectedNav === "INTRO" ? "circle left-nav-selected" : "circle"
             }
             onClick={() => selectNav("INTRO")}
-          ></div>
+            to="intro"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
               selectedNav === "ABOUT" ? "circle left-nav-selected" : "circle"
             }
             onClick={() => selectNav("ABOUT")}
-          ></div>
+            to="about"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
               selectedNav === "SKILLS" ? "circle left-nav-selected" : "circle"
             }
             onClick={() => selectNav("SKILLS")}
-          ></div>
+            to="skills"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
-              selectedNav === "EDUCATION" ? "circle left-nav-selected" : "circle"
+              selectedNav === "EDUCATION"
+                ? "circle left-nav-selected"
+                : "circle"
             }
             onClick={() => selectNav("EDUCATION")}
-          ></div>
+            to="education"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
-              selectedNav === "EXPERIENCE" ? "circle left-nav-selected" : "circle"
+              selectedNav === "EXPERIENCE"
+                ? "circle left-nav-selected"
+                : "circle"
             }
             onClick={() => selectNav("EXPERIENCE")}
-          ></div>
+            to="experience"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
               selectedNav === "PROJECTS" ? "circle left-nav-selected" : "circle"
             }
             onClick={() => selectNav("PROJECTS")}
-          ></div>
+            to="projects"
+            containerId="body"
+            smooth={true}            
+            duration={1000}
+          ></Link>
         </div>
         <div className="nav-items">
-          <div
+          <Link
             className={
               selectedNav === "CONTACT" ? "circle left-nav-selected" : "circle"
             }
             onClick={() => selectNav("CONTACT")}
-          ></div>
+            to="contact"
+            containerId="body"
+            smooth={true}
+            duration={1000}
+          ></Link>
         </div>
       </div>
     </div>

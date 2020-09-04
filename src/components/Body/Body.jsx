@@ -10,7 +10,7 @@ import "./Body.scss";
 
 const Body = () => {
   return (
-    <div className="body">
+    <div id="body" className="body">
       <Intro />
       <About />
       <Skills />

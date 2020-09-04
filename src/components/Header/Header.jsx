@@ -16,8 +16,8 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "INTRO" ? "header-nav-selected" : null}
           onClick={() => selectNav("INTRO")}
           to="intro"
-          smooth={true}
-          offset={-70}
+          containerId="body"
+          smooth={true}          
           duration={1000}
         >
           <hr />
@@ -27,6 +27,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "ABOUT" ? "header-nav-selected" : null}
           onClick={() => selectNav("ABOUT")}
           to="about"
+          containerId="body"
           smooth={true}
           duration={1000}
         >
@@ -37,6 +38,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "SKILLS" ? "header-nav-selected" : null}
           onClick={() => selectNav("SKILLS")}
           to="skills"
+          containerId="body"
           smooth={true}
           duration={1000}
         >
@@ -47,6 +49,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "EDUCATION" ? "header-nav-selected" : null}
           onClick={() => selectNav("EDUCATION")}
           to="education"
+          containerId="body"
           smooth={true}
           duration={1000}
         >
@@ -59,6 +62,7 @@ const Header = ({ selectedNav, selectNav }) => {
           }
           onClick={() => selectNav("EXPERIENCE")}
           to="experience"
+          containerId="body"
           smooth={true}
           duration={1000}
         >
@@ -69,6 +73,7 @@ const Header = ({ selectedNav, selectNav }) => {
           className={selectedNav === "PROJECTS" ? "header-nav-selected" : null}
           onClick={() => selectNav("PROJECTS")}
           to="projects"
+          containerId="body"
           smooth={true}
           duration={1000}
         >
@@ -78,6 +83,7 @@ const Header = ({ selectedNav, selectNav }) => {
         <Link
           className={selectedNav === "CONTACT" ? "header-nav-selected" : null}
           onClick={() => selectNav("CONTACT")}
+          containerId="body"
           to="contact"
           spy={true}
           smooth={true}
