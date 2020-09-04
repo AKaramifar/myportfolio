@@ -41,3 +41,10 @@
     cursor: default;
   }
 }
+.tooltip {
+  position: absolute;
+  margin-left: 105px;
+  padding: 10px;
+  background-color: tomato;
+  z-index: 100;
+}

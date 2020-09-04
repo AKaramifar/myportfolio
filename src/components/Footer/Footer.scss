@@ -1,21 +1,42 @@
-.footer {
+.footer{
   position: sticky;
   height: 80px;
   background-color: #ffffff;
   display: flex;
   font-size: 18px;
-  justify-content: flex-end;
   align-items: center;
+  justify-content: space-between;
+  font-family: "Roboto", sans-serif;
+  div:first-child{
+    color: #8a8a8a;
+    margin-left: 80px;
+    font-size: 12px;
+  }
+}
+.links-container {
+  height: 80px;
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;  
+  align-items: center;
+  a:nth-child(1){
+    color: #1B9CFC;
+  }
+  a:nth-child(2){
+    color: #596275;
+  }
+  a:nth-child(3){
+    color: #25CCF7;
+  }
   a:nth-child(4){
-    margin-right: 80px;;
+    color: #EE5A24;
+    margin-right: 80px;
   }
   i {
     padding: 0px 15px;
     transition: 300ms;
-    color: #596275;
   }
   i:hover {
-    color: #23c6ec;
     transform: scale(1.2);
     cursor: pointer;
   }

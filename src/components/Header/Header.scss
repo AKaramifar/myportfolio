@@ -5,14 +5,14 @@
   display: flex;
 }
 .header-logo {
-  width: 25%;
+  width: 30%;
   height: 80px;
   display: flex;
   align-items: center;
   p {
     padding: 8px 10px;
     font-size: 28px;
-    margin-left: 90px;
+    margin-left: 70px;
     color: #23c6ec;
     border-radius: 5px;
     font-family: 'Roboto Slab', serif;
@@ -58,8 +58,11 @@
     cursor: pointer;
     color: black;
   }
+  i{
+    color: #1cc1e8;
+  }
   i:hover {
-    color: #596275;
+    color: #1cc1e8;
     cursor: default;
   }
 }

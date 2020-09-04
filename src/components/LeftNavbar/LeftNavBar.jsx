@@ -15,7 +15,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             to="intro"
             offset={0}
             containerId="body"
-            smooth={true}            
+            smooth={true}
             duration={1000}
           ></Link>
         </div>
@@ -28,7 +28,7 @@ const LeftNavBar = ({ selectedNav, selectNav }) => {
             to="about"
             offset={0}
             containerId="body"
-            smooth={true}            
+            smooth={true}
             duration={1000}
           ></Link>
         </div>
