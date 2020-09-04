@@ -1,0 +1,22 @@
+.footer {
+  position: sticky;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+  font-size: 18px;
+  justify-content: flex-end;
+  align-items: center;
+  a:nth-child(4){
+    margin-right: 80px;;
+  }
+  i {
+    padding: 0px 15px;
+    transition: 300ms;
+    color: #596275;
+  }
+  i:hover {
+    color: #23c6ec;
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}

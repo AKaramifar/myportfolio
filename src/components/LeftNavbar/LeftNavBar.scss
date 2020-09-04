@@ -1,0 +1,43 @@
+.left-navbar {
+  position: sticky;
+  height: 100%;
+  width: 80px;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+}
+.left-nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 70%;
+}
+.nav-items {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.circle {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+  border: 5px solid #e6e6e6;
+  transition: 300ms;
+}
+.circle:hover {
+  border: 4px solid #23c6ec;
+  width: 17px;
+  height: 17px;
+  cursor: pointer;
+}
+.left-nav-selected {
+  border: 4px solid #23c6ec;
+  width: 17px;
+  height: 17px;
+  :hover {
+    cursor: default;
+  }
+}

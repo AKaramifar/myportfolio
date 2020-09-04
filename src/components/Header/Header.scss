@@ -1,0 +1,75 @@
+.header {
+  position: sticky;
+  height: 80px;
+  background-color: #ffffff;
+  display: flex;
+}
+.header-logo {
+  width: 20%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  p {
+    padding: 8px 10px;
+    font-size: 28px;
+    margin-left: 90px;
+    color: #23c6ec;
+    border-radius: 5px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bolder;
+    letter-spacing: 1px ;
+    strong {
+      color: black;
+      font-size: 22px;
+    }
+  }
+}
+.header-navbar {
+  height: 80px;
+  width: 80%;
+  padding-right: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.85rem;
+  font-weight: bold;
+  color: #8a8a8a;
+    text-align: left;
+  p {
+    padding: 5px 30px 5px 0px;
+    transition: 500ms;
+  }
+  hr {
+    position: absolute;
+    width: 0px;
+    margin-top: 22px;
+    margin-right: 0px;
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: 500ms;
+  }
+  :hover > hr {
+    background-color: #1cc1e8;
+    border: 1px solid #1cc1e8;
+    width: 20px;
+  }
+  :hover {
+    cursor: pointer;
+    color: black;
+  }
+  i:hover {
+    color: #596275;
+    cursor: default;
+  }
+}
+.header-nav-selected {
+  hr {
+    background-color: #1cc1e8;
+    border: 1px solid #1cc1e8;
+    width: 20px;
+  }
+  p {
+    color: black;
+  }
+}
