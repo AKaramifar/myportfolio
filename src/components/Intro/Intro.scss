@@ -7,7 +7,7 @@
     padding: 25px;
   }
 }
-.introduce {  
+.introduce {
   width: 50%;
   height: 100%;
   display: flex;
@@ -64,19 +64,19 @@
   }
 }
 
-.photo-container {  
+.photo-container {
   width: 50%;
   height: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
   font-family: "Roboto", sans-serif;
-  div{
+  div {
     margin-left: 15%;
     img {
       width: 350px;
       height: 350px;
       border-radius: 50%;
     }
-  }  
+  }
 }

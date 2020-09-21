@@ -34,13 +34,6 @@ const Footer = () => {
         >
           <i className="fas fa-file-alt"></i>
         </a>
-        <a
-          href="https://github.com/AKaramifar/myportfolio"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <i className="fas fa-code"></i>
-        </a>
       </div>
     </div>
   );

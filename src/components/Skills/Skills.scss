@@ -1,8 +1,110 @@
-.skills{
-    background: linear-gradient(to right, #f8f8f8, #fcfcfc, #f8f8f8);
-    height: calc(100vh - 160px);
-    font-family: 'Roboto Slab', serif;
-    h1{
-        padding: 25px;
+.skills-container {
+  font-family: "Roboto Slab", serif;
+  background-repeat: no-repeat;
+  background-size: contain;
+  h1 {
+    padding: 25px;
+  }
+}
+
+.skills-title {
+  width: 30%;
+  height: 90%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 50px;
+  font-weight: 700;
+}
+.technical-container {
+  width: 100%;
+  display: flex;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  font-weight: 700;
+}
+.technical {
+  width: 70%;
+  height: 400px;
+  padding-top: 60px;
+  margin-bottom: 10px;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  a {
+    width: 150px;
+    height: 150px;
+    font-size: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+    transition: 200ms;
+  }
+  a:hover {
+    transform: scale(1.08);
+    cursor: pointer;
+  }
+  a:nth-child(1) {
+    color: #25ccf7;
+    text-decoration: none;
+  }
+  a:nth-child(2) {
+    img {
+      width: 110px;
+      height: 100px;
+    }
+  }
+  a:nth-child(3) {
+    img {
+      width: 110px;
+      height: 100px;
+    }
+  }
+  a:nth-child(4) {
+    img {
+      width: 90px;
+      height: 110px;
+    }
+  }
+  a:nth-child(5) {
+    color: #f7b731;
+    text-decoration: none;
+  }
+  a:nth-child(6) {
+    color: #ee5a24;
+    text-decoration: none;
+  }
+  a:nth-child(7) {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  a:nth-child(8) {
+    color: #e84393;
+    text-decoration: none;
+  }
+}
+.non-technical {
+  height: 550px;
+  background-image: url("/CoudeYoureFuture.jpg");
+  color: white;
+}
+
+.filter {
+  background-color: rgba(0, 0, 0, 0.534);
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+
+.non-technical-skill{
+    width: 60%;
+    color: white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 100;
+    padding-top: 70px;
+    p{
+        margin-left: 110px;
     }
 }

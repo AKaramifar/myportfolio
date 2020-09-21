@@ -3,8 +3,101 @@ import "./Skills.scss";
 
 const Skills = () => {
   return (
-    <div id="skills" className="skills">
-     <h1>Skills</h1>
+    <div id="skills" className="skills-container">
+      <div className="technical-container">
+        <div className="skills-title">
+          <p>TECHNICAL SKILLS</p>
+        </div>
+        <div className="technical">
+          <a href="https://reactjs.org/" target="_blank">
+            <i className="fab fa-react"></i>
+          </a>
+          <a
+            href="https://redux.js.org/introduction/getting-started"
+            target="_blank"
+          >
+            <img src="./redux.png" alt="Redux"></img>
+          </a>
+          <a href="https://nodejs.org/en/" target="_blank">
+            <img src="./Node.png" alt="Node"></img>
+          </a>
+          <a href="https://www.mongodb.com/" target="_blank">
+            <img src="./mongoDB.png" alt="mongoDB"></img>
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+            target="_blank"
+          >
+            <i class="fab fa-js"></i>
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
+            target="_blank"
+          >
+            <i class="fab fa-html5"></i>
+          </a>
+          <a
+            href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+            target="_blank"
+          >
+            <i class="fab fa-css3-alt"></i>
+          </a>
+          <a href="https://sass-lang.com/documentation/syntax" target="_blank">
+            <i class="fab fa-sass"></i>
+          </a>
+        </div>
+      </div>
+      <div className="non-technical">
+        <div className="filter">
+          <div className="skills-title">
+            <p>NON-TECHNICAL SKILLS</p>
+          </div>
+          <div className="non-technical-skill">
+            <strong>COLLABORATE: </strong>
+            <p>
+              Collaboration skills enable you to successfully work toward a
+              common goal with others. They include communicating clearly,
+              actively listening to others, taking responsibility for mistakes,
+              and respecting the diversity of your colleagues
+            </p>
+            <br />
+            <strong>COMMUNICATE: </strong>
+            <p>
+              Effective, honest communication can bind employees together. If
+              the staff are talking with each other on the job, that's a major
+              step towards building a good team. Employees who look forward to
+              talking with their colleagues are more enthused about coming to
+              work
+            </p>
+            <br />
+            <strong>PROBLEM SOLVING:</strong>
+            <p>
+              Problem solving is at the core of human evolution.
+              <br />
+              Problem solving is the source of all new inventions, social and
+              cultural evolution, and the basis for market based economies. It
+              is the basis for continuous improvement, communication and
+              learning
+            </p>
+            <br />
+            <strong>CREATIVE THINKING: </strong>
+            <p>
+              Creative thinking might mean devising new ways to carry out tasks,
+              solve problems, and meet challenges. It means bringing a fresh,
+              and sometimes unorthodox, perspective to your work. This way of
+              thinking can help departments and organizations be more productive
+            </p>
+            <br />
+            <strong>FUNNY: </strong>
+            <p>
+              FUN, means feeling good about being part of the company or one’s
+              team, feeling proud of what one does, feeling a sense of
+              accomplishment in the search for better quality and greater
+              efficiency, feeling part of a challenging project
+            </p>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
