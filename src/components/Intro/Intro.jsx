@@ -4,7 +4,7 @@ import "./Intro.scss";
 
 const Intro = ({ selectNav }) => {
   return (
-    <div id="intro" className="intro">
+    <div id="intro" className="intro animate__animated animate__fadeIn">
       <div className="introduce">
         <div>
           <p>Hey!</p>
