@@ -8,10 +8,10 @@ import Projects from "../Projects/Projects.jsx";
 import Contact from "../Contact/Contact.jsx";
 import "./Body.scss";
 
-const Body = () => {
+const Body = ({ selectNav }) => {
   return (
     <div id="body" className="body">
-      <Intro />
+      <Intro selectNav={selectNav} />
       <About />
       <Skills />
       <Education />

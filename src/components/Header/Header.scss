@@ -9,19 +9,24 @@
   height: 80px;
   display: flex;
   align-items: center;
-  p {
-    padding: 8px 10px;
-    font-size: 28px;
+  i:nth-child(1) {
     margin-left: 70px;
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  i:nth-child(2) {
+    font-size: 33px;
+    color: #00bbe6;
+  }
+  i:nth-child(3) {
+    margin-top: 15px;
+    font-size: 18px;
+  }
+  strong: {
+    font-family: "Roboto", sans-serif;
     color: #23c6ec;
-    border-radius: 5px;
-    font-family: 'Roboto Slab', serif;
-    font-weight: bolder;
-    letter-spacing: 1px ;
-    strong {
-      color: black;
-      font-size: 22px;
-    }
+    font-size: 35px;
+    padding: 0px 0px 0px 5px;
   }
 }
 .header-navbar {
@@ -35,7 +40,7 @@
   font-size: 0.85rem;
   font-weight: bold;
   color: #8a8a8a;
-    text-align: left;
+  text-align: left;
   p {
     padding: 5px 30px 5px 0px;
     transition: 500ms;
@@ -58,7 +63,7 @@
     cursor: pointer;
     color: black;
   }
-  i{
+  i {
     color: #1cc1e8;
   }
   i:hover {

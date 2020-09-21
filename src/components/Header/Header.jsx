@@ -6,9 +6,9 @@ const Header = ({ selectedNav, selectNav }) => {
   return (
     <div className="header animate__animated animate__fadeInDown">
       <div className="header-logo">
-        <p>
-          &#123;&nbsp;<strong>&#x0002F;* AFSHIN *&#x0002F;</strong>&nbsp;&#125;
-        </p>
+      <i className="fas fa-chevron-left"></i>
+      <i className="fab fa-autoprefixer"></i>
+      <i className="fas fa-chevron-right"></i>
       </div>
       <div className="header-navbar">
         <Link
@@ -98,7 +98,7 @@ const Header = ({ selectedNav, selectNav }) => {
           <hr />
           <p>CONTACT</p>
         </Link>
-        <i class="fas fa-chevron-left"></i>
+        <i className="fas fa-chevron-left"></i>
       </div>
     </div>
   );

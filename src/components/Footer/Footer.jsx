@@ -39,7 +39,7 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fas fa-code"></i>
+          <i className="fas fa-code"></i>
         </a>
       </div>
     </div>
