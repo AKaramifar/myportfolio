@@ -29,7 +29,7 @@ const Intro = ({ selectNav }) => {
       </div>
       <div className="photo-container">
         <div>
-          <img src="./Afshin.jpg"></img>
+          <img src="./Afshin.jpg" alt="Afshin"></img>
         </div>
       </div>
     </div>
