@@ -19,6 +19,7 @@ const Skills = () => {
           <a
             href="https://redux.js.org/introduction/getting-started"
             target="_blank"
+            rel="noopener noreferrer"
           >
             <img src="./redux.png" alt="Redux"></img>
           </a>
