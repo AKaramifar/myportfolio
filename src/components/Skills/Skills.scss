@@ -7,14 +7,23 @@
   }
 }
 
-.skills-title {
+.skills-title-1 {
   width: 30%;
   height: 90%;
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 22px;
-  padding-top: 50px;
-  font-weight: 700;
+  padding-top: 95px;
+  font-weight: 700;  
+}
+.skills-title-2 {
+  width: 30%;
+  height: 90%;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  font-size: 22px;
+  padding-top: 45px;
+  font-weight: 700;  
 }
 .technical-container {
   width: 100%;
@@ -26,8 +35,8 @@
 }
 .technical {
   width: 70%;
-  height: 400px;
-  padding-top: 60px;
+  height: calc(100vh - 260px);
+  padding-top: 100px;
   margin-bottom: 10px;
   display: grid;
   grid-template-columns: auto auto auto auto;
@@ -86,8 +95,9 @@
   }
 }
 .non-technical {
-  height: 650px;
-  background-image: url("/CoudeYoureFuture.jpg");
+  height: 700px;
+  background-image: url("/team-work.jpg");
+  background-size: cover;
   color: white;
 }
 
@@ -98,13 +108,14 @@
   display: flex;
 }
 
-.non-technical-skill{
-    width: 60%;
-    color: white;
-    font-family: "Roboto", sans-serif;
-    font-weight: 100;
-    padding-top: 70px;
-    p{
-        margin-left: 110px;
-    }
+.non-technical-skill {
+  width: 60%;
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 100;
+  padding-top: 50px;
+  line-height: 22px;
+  p {
+    margin-left: 110px;
+  }
 }

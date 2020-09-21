@@ -7,7 +7,7 @@ const Intro = ({ selectNav }) => {
     <div id="intro" className="intro animate__animated animate__fadeIn">
       <div className="introduce">
         <div>
-          <p>Hey!</p>
+          <p>Hi,</p>
           <p>I'am Afshin</p>
           <p>Full Stack Developer</p>
           <p>Trine at Code Your Future</p>

@@ -20,7 +20,8 @@ const About = () => {
           <br />I would describe myself as someone who is honest, caring,
           intelligent, hardworking, proactive, dedicated, self-motivated person
           with a wide range of transferable skills in software development and
-          IT infrastructure.<br/> Strong team member capable of adapting well to new
+          IT infrastructure.
+          <br /> Strong team member capable of adapting well to new
           circumstances and conditions. I consider myself to be positive and
           determined with strong problem-solving skills.I am comfortable with
           all aspects of learning and can adapt to new environments quickly.

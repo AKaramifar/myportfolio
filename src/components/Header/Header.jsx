@@ -36,16 +36,28 @@ const Header = ({ selectedNav, selectNav }) => {
           <p>ABOUT</p>
         </Link>
         <Link
-          className={selectedNav === "SKILLS" ? "header-nav-selected" : null}
-          onClick={() => selectNav("SKILLS")}
-          to="skills"
+          className={selectedNav === "TECHNICAL SKILLS" ? "header-nav-selected" : null}
+          onClick={() => selectNav("TECHNICAL SKILLS")}
+          to="technical-skills"
           offset={1}
           containerId="body"
           smooth={true}
           duration={1000}
         >
           <hr />
-          <p>SKILLS</p>
+          <p>TECHNICAL SKILLS</p>
+        </Link>
+        <Link
+          className={selectedNav === "SOFT SKILLS" ? "header-nav-selected" : null}
+          onClick={() => selectNav("SOFT SKILLS")}
+          to="soft-skills"
+          offset={1}
+          containerId="body"
+          smooth={true}
+          duration={1000}
+        >
+          <hr />
+          <p>SOFT SKILLS</p>
         </Link>
         <Link
           className={selectedNav === "EDUCATION" ? "header-nav-selected" : null}

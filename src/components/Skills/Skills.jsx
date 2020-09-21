@@ -3,9 +3,9 @@ import "./Skills.scss";
 
 const Skills = () => {
   return (
-    <div id="skills" className="skills-container">
-      <div className="technical-container">
-        <div className="skills-title">
+    <div className="skills-container">
+      <div id="technical-skills" className="technical-container">
+        <div className="skills-title-1">
           <p>TECHNICAL SKILLS</p>
         </div>
         <div className="technical">
@@ -67,9 +67,9 @@ const Skills = () => {
           </a>
         </div>
       </div>
-      <div className="non-technical">
+      <div id="soft-skills" className="non-technical">
         <div className="filter">
-          <div className="skills-title">
+          <div className="skills-title-2">
             <p>SOFT SKILLS</p>
           </div>
           <div className="non-technical-skill">
