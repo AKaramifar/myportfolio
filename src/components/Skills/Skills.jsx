@@ -9,7 +9,11 @@ const Skills = () => {
           <p>TECHNICAL SKILLS</p>
         </div>
         <div className="technical">
-          <a href="https://reactjs.org/" target="_blank">
+          <a
+            href="https://reactjs.org/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <i className="fab fa-react"></i>
           </a>
           <a
@@ -18,32 +22,47 @@ const Skills = () => {
           >
             <img src="./redux.png" alt="Redux"></img>
           </a>
-          <a href="https://nodejs.org/en/" target="_blank">
+          <a
+            href="https://nodejs.org/en/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="./Node.png" alt="Node"></img>
           </a>
-          <a href="https://www.mongodb.com/" target="_blank">
+          <a
+            href="https://www.mongodb.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <img src="./mongoDB.png" alt="mongoDB"></img>
           </a>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <i class="fab fa-js"></i>
+            <i className="fab fa-js"></i>
           </a>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <i class="fab fa-html5"></i>
+            <i className="fab fa-html5"></i>
           </a>
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/CSS"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            <i class="fab fa-css3-alt"></i>
+            <i className="fab fa-css3-alt"></i>
           </a>
-          <a href="https://sass-lang.com/documentation/syntax" target="_blank">
-            <i class="fab fa-sass"></i>
+          <a
+            href="https://sass-lang.com/documentation/syntax"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <i className="fab fa-sass"></i>
           </a>
         </div>
       </div>
