@@ -11,28 +11,35 @@ const Footer = () => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-linkedin-in"></i>
+          <i className="fab fa-linkedin-in"></i>
         </a>
         <a
           href="https://github.com/AKaramifar"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-github"></i>
+          <i className="fab fa-github"></i>
         </a>
         <a
           href="https://twitter.com/AfshinKaramifar?s=09"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fab fa-twitter"></i>
+          <i className="fab fa-twitter"></i>
         </a>
         <a
           href="https://drive.google.com/file/d/1PThC5N9VjGj2NJ9BvSSEOTxBUa9D2-bY/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <i class="fas fa-file-alt"></i>
+          <i className="fas fa-file-alt"></i>
+        </a>
+        <a
+          href="https://github.com/AKaramifar/myportfolio"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <i class="fas fa-code"></i>
         </a>
       </div>
     </div>
