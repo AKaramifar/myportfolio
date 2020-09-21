@@ -70,9 +70,18 @@ const Skills = () => {
       <div className="non-technical">
         <div className="filter">
           <div className="skills-title">
-            <p>NON-TECHNICAL SKILLS</p>
+            <p>SOFT SKILLS</p>
           </div>
           <div className="non-technical-skill">
+            <strong>HONESTY: </strong>
+            <p>
+              HONESTY, loyalty, integrity, uprightness, a complete refusal to
+              use any underhanded method to help win business or gain any kind
+              of advantage. Neither growth, nor profit nor independence have any
+              real worth unless they are won through complete honesty and
+              probity.
+            </p>
+            <br />
             <strong>COLLABORATE: </strong>
             <p>
               Collaboration skills enable you to successfully work toward a
