@@ -12,8 +12,8 @@ const Body = ({ selectNav, selectedNav }) => {
   const componentOffsetTop = useRef([]);
   const on_Scroll = (e) => {
     componentOffsetTop.current.map((El) =>
-      e.target.scrollTop >= El.offsetTop - 50 &&
-      e.target.scrollTop <= El.offsetTop + 50 &&
+      e.target.scrollTop >= El.offsetTop - 150 &&
+      e.target.scrollTop <= El.offsetTop + 150 &&
       selectedNav.toLowerCase() !== El.id.toLowerCase().replace("-", " ")
         ? selectNav(El.id.toUpperCase().replace("-", " "))
         : {}
