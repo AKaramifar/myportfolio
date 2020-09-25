@@ -1,11 +1,12 @@
 import React from "react";
 import "./About.scss";
 
-const About = () => {
+const About = ({componentOffsetTop}) => {
   return (
     <div
       id="about"
       className="about-container animate__animated animate__fadeIn"
+      ref={(e) => (componentOffsetTop.current[1] = e)}
     >
       <div className="about-left-side">
         <p>HERE I AM</p>

@@ -1,10 +1,14 @@
 import React from "react";
 import "./Experience.scss";
 
-const Experience = () => {
+const Experience = ({ componentOffsetTop }) => {
   return (
-    <div id="experience" className="experience">
-     <h1>Experience</h1>
+    <div
+      id="experience"
+      className="experience"
+      ref={(e) => (componentOffsetTop.current[5] = e)}
+    >
+      <h1>Experience</h1>
     </div>
   );
 };

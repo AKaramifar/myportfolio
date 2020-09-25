@@ -2,9 +2,13 @@ import React from "react";
 import { Link } from "react-scroll";
 import "./Intro.scss";
 
-const Intro = ({ selectNav }) => {
+const Intro = ({ selectNav, componentOffsetTop }) => {
   return (
-    <div id="intro" className="intro animate__animated animate__fadeIn">
+    <div
+      id="intro"
+      className="intro animate__animated animate__fadeIn"
+      ref={(e) => (componentOffsetTop.current[0] = e)}
+    >
       <div className="introduce">
         <div>
           <p>Hi,</p>

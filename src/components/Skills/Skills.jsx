@@ -1,10 +1,14 @@
 import React from "react";
 import "./Skills.scss";
 
-const Skills = () => {
+const Skills = ({ componentOffsetTop }) => {
   return (
     <div className="skills-container">
-      <div id="technical-skills" className="technical-container">
+      <div
+        id="technical-skills"
+        className="technical-container"
+        ref={(e) => (componentOffsetTop.current[2] = e)}
+      >
         <div className="skills-title-1">
           <p>TECHNICAL SKILLS</p>
         </div>
@@ -67,7 +71,11 @@ const Skills = () => {
           </a>
         </div>
       </div>
-      <div id="soft-skills" className="non-technical">
+      <div
+        id="soft-skills"
+        className="non-technical"
+        ref={(e) => (componentOffsetTop.current[3] = e)}
+      >
         <div className="filter">
           <div className="skills-title-2">
             <p>SOFT SKILLS</p>
