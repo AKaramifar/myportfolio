@@ -42,22 +42,30 @@
 .hover-link {
   position: absolute;
   display: none;
-  width: calc(100% - 20px);
-  height: calc(100% - 20px);
-  background-color: rgba(0, 0, 0, 0.20);
-  border-radius: 4px;
+  top: calc(25% + 10px);
+  margin-left: -1px;
+  width: calc(100% - 18px);
+  height: calc(50% - 20px);
+  background-color: #f0f0f0;
   transition: 200ms;
   justify-content: center;
   align-items: center;
+  a{
+    text-decoration: none;
+  }
   i{
-      padding: 15px;
+      width: 70px;
+      height: 40px;
+      margin: 5px;
       font-size: 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
       transition: 200ms;
-      color: #ffffff;
-      z-index: 1000;
+      color: #1B9CFC;
   }
   i:hover{
-      transform: scale(1.2);
+    transform: scale(1.2);
       cursor: pointer;
   }
 }
