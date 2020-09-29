@@ -13,7 +13,7 @@ const Education = ({ componentOffsetTop }) => {
         <div className="circle-date-one"></div>
         <div className="part-one">
           <i className="cap fas fa-graduation-cap"></i>
-          <p>COMPUTER SOFTWARE DIPLOMA</p>
+          <p>COMPUTER SOFTWARE COURSE</p>
           <p>Iran - Kermanshah</p>
           <p>Jaberi College</p>
         </div>
@@ -31,14 +31,14 @@ const Education = ({ componentOffsetTop }) => {
           <i className="cap fas fa-graduation-cap"></i>
           <p>BASIC CODING COURSE</p>
           <p>UK - MANCHESTER</p>
-          <p>CODE NATION COMPANY</p>
+          <p>Code Nation Company</p>
         </div>
         <div className="circle-date-four"></div>
         <div className="part-four">
           <i className="cap fas fa-graduation-cap"></i>
-          <p>FULL STACK DEVELOPER</p>
+          <p>FULL STACK WEB COURSE</p>
           <p>UK - London</p>
-          <p>Code Your Future</p>
+          <p>Code Your Future Company</p>
         </div>
         <div className="circle-date-five"></div>
       </div>

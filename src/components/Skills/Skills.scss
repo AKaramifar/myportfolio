@@ -1,5 +1,5 @@
 .skills-container {
-  font-family: "Roboto Slab", serif;
+  font-family: "Roboto", sans-serif;
   background-repeat: no-repeat;
   background-size: contain;
   h1 {
@@ -31,13 +31,14 @@
   font-family: "Roboto", sans-serif;
   text-align: center;
   font-size: 22px;
-  font-weight: 700;
+  font-weight: 700;  
 }
 .technical {
   width: 70%;
   height: calc(100vh - 260px);
   padding-top: 100px;
   margin-bottom: 10px;
+  background-color: white;
   display: grid;
   grid-template-columns: auto auto auto auto;
   a {
@@ -102,7 +103,7 @@
 }
 
 .filter {
-  background-color: rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.5);  
   width: 100%;
   height: 100%;
   display: flex;

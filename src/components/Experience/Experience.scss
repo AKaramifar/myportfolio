@@ -1,8 +1,72 @@
-.experience{
-    background: linear-gradient(to right, #f5f5f5, #fafafa, #f5f5f5);
-    height: calc(100vh - 160px);
-    font-family: 'Roboto Slab', serif;
-    h1{
-        padding: 25px;
-    }
+.experience {
+  background: linear-gradient(to right, #136a8a, #267871);
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  h1 {
+    padding: 75px;
+    font-size: 25px;
+    color: white;
+  }
+}
+
+.experience-container {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.ex-part-one,
+.ex-part-two,
+.ex-part-tree,
+.ex-part-four {
+  width: 25%;
+  height: 300px;
+  border-top: 1px solid #25ccf7;
+  margin-top: 20px;
+  line-height: 25px;
+}
+
+.ex-circle-date-one,
+.ex-circle-date-two,
+.ex-circle-date-tree,
+.ex-circle-date-four,
+.ex-circle-date-five {
+  margin: -280px 5px 0px 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  border: 2px solid #25ccf7;
+}
+
+.ex-circle-date-one::before,
+.ex-circle-date-two::before,
+.ex-circle-date-tree::before,
+.ex-circle-date-four::before,
+.ex-circle-date-five::before {
+  position: absolute;
+  margin-top: -30px;
+  margin-left: -19px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.ex-circle-date-one::before {
+  content: "2013";
+}
+.ex-circle-date-two::before {
+  content: "2015";
+}
+.ex-circle-date-tree::before {
+  margin-left: -48px;
+  content: "2017 - 2019";
+}
+.ex-circle-date-four::before {
+  content: "2020";
+}
+
+.ex-cap {
+  font-size: 30px;
+  margin-top: 15px;
 }
