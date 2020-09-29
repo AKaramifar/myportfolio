@@ -6,6 +6,7 @@ const Contact = ({ componentOffsetTop }) => {
   const values = useRef([]);
   const sendEmail = (event) => {
     event.preventDefault();
+    values.current[3].value = "Sending Message . . .";
     emailjs
       .sendForm(
         "gmail",
@@ -16,6 +17,7 @@ const Contact = ({ componentOffsetTop }) => {
       .then(
         (result) => {
           alert("Thanks for your message!");
+          values.current[3].value = "SEND MESSAGE";
         },
         (error) => {
           console.log(error.text);

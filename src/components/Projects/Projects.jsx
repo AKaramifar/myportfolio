@@ -19,13 +19,6 @@ const Projects = ({ componentOffsetTop }) => {
             >
               <i className="fas fa-code"></i>
             </a>
-            <a
-              href="https://www.afshin-karamifar.dev/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <i className="fas fa-globe"></i>
-            </a>
           </div>
           <img src="projects/portfolio.jpg" alt="portfolio" />
         </div>

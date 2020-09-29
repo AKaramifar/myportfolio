@@ -81,30 +81,37 @@ const Skills = ({ componentOffsetTop }) => {
             <p>SOFT SKILLS</p>
           </div>
           <div className="non-technical-skill">
-            <strong>HONESTY: </strong>
+            <strong>profetional integrity and honesty: </strong>
             <p>
-              HONESTY, loyalty, integrity, uprightness, a complete refusal to
-              use any underhanded method to help win business or gain any kind
-              of advantage. Neither growth, nor profit nor independence have any
-              real worth unless they are won through complete honesty and
-              probity.
+              Integrity, uprightness, and honest atritute can hepls business in
+              achiving long term goales.
+              <br /> it also helps with foreseeing future issuess and solving
+              potential problems.
+              <br />
+              Neither growth, nor profit, nor independence have any real worth
+              unless they are won through complete honesty and hardwork.
             </p>
             <br />
-            <strong>COLLABORATE: </strong>
+            <strong>COLLABORATION: </strong>
             <p>
-              Collaboration skills enable you to successfully work toward a
-              common goal with others. They include communicating clearly,
-              actively listening to others, taking responsibility for mistakes,
-              and respecting the diversity of your colleagues
+              Collaboration skills enable me to successfully work toward a
+              common goal with others.
+              <br />
+              They include communicating clearly, actively listening to others,
+              taking responsibility and ownership for issues, and respecting the
+              diversity of my colleagues.
             </p>
             <br />
             <strong>COMMUNICATE: </strong>
             <p>
-              Effective, honest communication can bind employees together. If
-              the staff are talking with each other on the job, that's a major
-              step towards building a good team. Employees who look forward to
-              talking with their colleagues are more enthused about coming to
-              work
+              Effective and transparent communication helps me within a team as
+              well as other teams toward achiving project target and deadlines.
+              <br />
+              this is a majur step to works building a good team, good
+              functioning and better teams dynamics.
+              <br />
+              Employees who look forward to talking with their colleagues are
+              more enthused about there work.
             </p>
             <br />
             <strong>PROBLEM SOLVING:</strong>
@@ -112,17 +119,22 @@ const Skills = ({ componentOffsetTop }) => {
               Problem solving is at the core of human evolution.
               <br />
               Problem solving is the source of all new inventions, social and
-              cultural evolution, and the basis for market based economies. It
-              is the basis for continuous improvement, communication and
+              cultural evolution.
+              <br />
+              It is the basics for continuous improvement, communication and
               learning
             </p>
             <br />
             <strong>CREATIVE THINKING: </strong>
             <p>
               Creative thinking might mean devising new ways to carry out tasks,
-              solve problems, and meet challenges. It means bringing a fresh,
-              and sometimes unorthodox, perspective to your work. This way of
-              thinking can help departments and organizations be more productive
+              solve problems, and meet challenges.
+              <br />
+              It brings a fresh, and sometimes unorthodox, perspective to my
+              work.
+              <br /> This way of thinking sometimes coupled with collabrations
+              with other teams in minde can help departments and organizations
+              be more productive
             </p>
             <br />
             <strong>FUNNY: </strong>
@@ -130,7 +142,7 @@ const Skills = ({ componentOffsetTop }) => {
               FUN, means feeling good about being part of the company or one’s
               team, feeling proud of what one does, feeling a sense of
               accomplishment in the search for better quality and greater
-              efficiency, feeling part of a challenging project
+              efficiency, feeling part of a challenging project.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.scss";
 
-const About = ({componentOffsetTop}) => {
+const About = ({ componentOffsetTop }) => {
   return (
     <div
       id="about"
@@ -13,19 +13,24 @@ const About = ({componentOffsetTop}) => {
       </div>
       <div className="about-right-side">
         <p>
-          I am Full Stack web developer and I living in London, UK.
+          I am Junior Full Stack web developer and I living in London, UK.
           <br />
           I'm available for speaking engagements, interviews, and freelance
           projects
           <br />
-          <br />I would describe myself as someone who is honest, caring,
-          intelligent, hardworking, proactive, dedicated, self-motivated person
-          with a wide range of transferable skills in software development and
-          IT infrastructure.
+          <br />
+          My colleagues and my friend would describe me as someone who is
+          self-motivated, hardworking, proactive, caring and dedicated person.
+          <br />
+          I have with a wide range of transferable skills in software
+          development and IT infrastructure.
           <br /> Strong team member capable of adapting well to new
-          circumstances and conditions. I consider myself to be positive and
-          determined with strong problem-solving skills.I am comfortable with
-          all aspects of learning and can adapt to new environments quickly.
+          circumstances and conditions.
+          <br />I consider myself to be positive and determined with strong
+          problem-solving skills.
+          <br />I am comfortable with all aspects of learning and can adapt to
+          new environments quickly.
+          <br />
           Currently seeking a role as a Junior Full Stack web developer.
         </p>
       </div>

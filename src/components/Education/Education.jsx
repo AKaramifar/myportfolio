@@ -22,15 +22,15 @@ const Education = ({ componentOffsetTop }) => {
           <i className="cap fas fa-graduation-cap"></i>
           <p>COMPUTER SOFTWARE ENGINEERING</p>
           <p>Iran - Kermanshah</p>
-          <p>Number one Univercity</p>
+          <p>Kermanshah Univercity</p>
           <p>Iran - Rasht</p>
-          <p>Gilan Univercity</p>
+          <p>Sardar Jangal Rasht Univercity</p>
         </div>
         <div className="circle-date-tree"></div>
         <div className="part-tree">
           <i className="cap fas fa-graduation-cap"></i>
           <p>BASIC CODING COURSE</p>
-          <p>UK - MANCHESTER</p>
+          <p>UK - Manchester</p>
           <p>Code Nation Company</p>
         </div>
         <div className="circle-date-four"></div>

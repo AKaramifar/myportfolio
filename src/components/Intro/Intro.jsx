@@ -12,8 +12,8 @@ const Intro = ({ selectNav, componentOffsetTop }) => {
       <div className="introduce">
         <div>
           <p>Hi,</p>
-          <p>I'am Afshin</p>
-          <p>Full Stack Developer</p>
+          <p>I'm Afshin</p>
+          <p>Junior Full Stack Web Developer</p>
           <p>Trainee at Code Your Future</p>
           <p>Since Novomber 2019.</p>
           <Link
