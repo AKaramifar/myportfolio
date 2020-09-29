@@ -81,11 +81,11 @@ const Skills = ({ componentOffsetTop }) => {
             <p>SOFT SKILLS</p>
           </div>
           <div className="non-technical-skill">
-            <strong>profetional integrity and honesty: </strong>
+            <strong>PROFETIONAL INTEGRITY AND HONESTY: </strong>
             <p>
-              Integrity, uprightness, and honest atritute can hepls business in
-              achiving long term goales.
-              <br /> it also helps with foreseeing future issuess and solving
+              Integrity, uprightness, and honest attitude can helps business in
+              achiving long term goles.
+              <br /> It also helps with foreseeing future issues and solving
               potential problems.
               <br />
               Neither growth, nor profit, nor independence have any real worth
@@ -105,9 +105,9 @@ const Skills = ({ componentOffsetTop }) => {
             <strong>COMMUNICATE: </strong>
             <p>
               Effective and transparent communication helps me within a team as
-              well as other teams toward achiving project target and deadlines.
+              well as other teams toward achiving project targetS and deadlines.
               <br />
-              this is a majur step to works building a good team, good
+              This is a major step for building a good team, good
               functioning and better teams dynamics.
               <br />
               Employees who look forward to talking with their colleagues are
@@ -121,8 +121,8 @@ const Skills = ({ componentOffsetTop }) => {
               Problem solving is the source of all new inventions, social and
               cultural evolution.
               <br />
-              It is the basics for continuous improvement, communication and
-              learning
+              It is the basis for continuous improvement, communication and
+              learning.
             </p>
             <br />
             <strong>CREATIVE THINKING: </strong>
@@ -133,8 +133,8 @@ const Skills = ({ componentOffsetTop }) => {
               It brings a fresh, and sometimes unorthodox, perspective to my
               work.
               <br /> This way of thinking sometimes coupled with collabrations
-              with other teams in minde can help departments and organizations
-              be more productive
+              with other teams in mind can help departments and organizations
+              be more productive.
             </p>
             <br />
             <strong>FUNNY: </strong>
