@@ -15,7 +15,7 @@ const Contact = ({ componentOffsetTop }) => {
       )
       .then(
         (result) => {
-          alert("Thanks for your message!")
+          alert("Thanks for your message!");
         },
         (error) => {
           console.log(error.text);
@@ -41,6 +41,7 @@ const Contact = ({ componentOffsetTop }) => {
             ref={(e) => (values.current[0] = e)}
             spellCheck="false"
             autoComplete="off"
+            required
           ></input>
           <input
             name="Email"
@@ -49,6 +50,7 @@ const Contact = ({ componentOffsetTop }) => {
             ref={(e) => (values.current[1] = e)}
             autoComplete="off"
             spellCheck="false"
+            required
           ></input>
           <textarea
             name="Message"
@@ -56,6 +58,7 @@ const Contact = ({ componentOffsetTop }) => {
             ref={(e) => (values.current[2] = e)}
             autoComplete="off"
             spellCheck="false"
+            required
           ></textarea>
           <input
             type="submit"
