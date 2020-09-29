@@ -28,7 +28,7 @@ const Footer = () => {
           <i className="fab fa-twitter"></i>
         </a>
         <a
-          href="https://drive.google.com/file/d/1PThC5N9VjGj2NJ9BvSSEOTxBUa9D2-bY/view?usp=sharing"
+          href="https://drive.google.com/file/d/1Ui-2WR7xNGcu8jyQ97CZx3Z0Pn0pHZNZ/view?usp=sharing"
           target="_blank"
           rel="noopener noreferrer"
         >

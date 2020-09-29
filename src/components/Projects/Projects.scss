@@ -29,7 +29,7 @@
     transform: scale(1.1);
   }
   .project-card:hover > .hover-link {
-    display: flex;
+    display: block;
   }
   img {
     width: 220px;
@@ -42,18 +42,30 @@
 .hover-link {
   position: absolute;
   display: none;
-  top: calc(25% + 10px);
-  margin-left: -1px;
-  width: calc(100% - 18px);
-  height: calc(50% - 20px);
+  margin: -1px 0px 0px -1px;
+  padding: 5px;
+  width: 220px;
+  height: 150px;
   background-color: #f0f0f0;
   transition: 200ms;
-  justify-content: center;
-  align-items: center;
-  a{
-    text-decoration: none;
+  div:nth-child(1) {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 50%;
+    font-weight: 700;
   }
-  i{
+  div:nth-child(2) {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    a {
+      text-decoration: none;
+    }
+    i {
       width: 70px;
       height: 40px;
       margin: 5px;
@@ -62,10 +74,11 @@
       align-items: center;
       justify-content: center;
       transition: 200ms;
-      color: #1B9CFC;
-  }
-  i:hover{
-    transform: scale(1.2);
+      color: #1b9cfc;
+    }
+    i:hover {
+      transform: scale(1.2);
       cursor: pointer;
+    }
   }
 }
