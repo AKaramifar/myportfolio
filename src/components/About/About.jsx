@@ -15,7 +15,7 @@ const About = ({ componentOffsetTop }) => {
         <p>
           I am Junior Full Stack web developer and I living in London, UK.
           <br />
-          I'm available for speaking engagements, interviews, and freelance
+          I am available for speaking engagements, interviews, and freelance
           projects
           <br />
           <br />
