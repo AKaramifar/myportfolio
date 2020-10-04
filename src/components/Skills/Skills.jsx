@@ -81,7 +81,7 @@ const Skills = ({ componentOffsetTop }) => {
             <p>SOFT SKILLS</p>
           </div>
           <div className="non-technical-skill">
-            <strong>PROFETIONAL INTEGRITY AND HONESTY: </strong>
+            <strong>PROFESSIONAL INTEGRITY AND HONESTY: </strong>
             <p>
               Integrity, uprightness, and honest attitude can helps business in
               achiving long term goles.
