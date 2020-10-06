@@ -13,9 +13,7 @@ const Intro = ({ selectNav, componentOffsetTop }) => {
         <div>
           <p>Hi,</p>
           <p>I'm Afshin</p>
-          <p>Junior Full Stack Web Developer</p>
-          <p>Trainee at Code Your Future</p>
-          <p>Since Novomber 2019.</p>
+          <p>Full Stack Web Developer</p>
           <Link
             className="link-portfolio"
             onClick={() => selectNav("PROJECTS")}

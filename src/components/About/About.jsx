@@ -13,24 +13,18 @@ const About = ({ componentOffsetTop }) => {
       </div>
       <div className="about-right-side">
         <p>
-          I am Junior Full Stack web developer and I living in London, UK.
-          <br />
-          I am available for speaking engagements, interviews, and freelance
-          projects
-          <br />
+          I am Full Stack web developer and I based in London, UK.<br />I am
+          looking for full-stack developer roles and available for interviews
+          any time.
           <br />
           My colleagues and my friend would describe me as someone who is
-          self-motivated, hardworking, proactive, caring and dedicated person.
-          <br />
-          I have a wide range of transferable skills in software
+          self-motivated, hardworking, proactive, caring and dedicated person.{" "}
+          <br />I have a wide range of transferable skills in software
           development and IT infrastructure.
-          <br /> Strong team member capable of adapting well to new
-          circumstances and conditions, I consider myself to be positive and determined with strong
-          problem-solving skills.
-          <br />I am comfortable with all aspects of learning and can adapt to
-          new environments quickly.
-          <br />
-          Currently seeking a role as a Junior Full Stack web developer.
+          <br /> I am a team player capable of adapting well to new
+          circumstances and conditions, and problem solver. <br />I can adapt to
+          new environments quickly and love learning. <br />
+          Currently seeking a role as a Full Stack web developer.
         </p>
       </div>
     </div>
