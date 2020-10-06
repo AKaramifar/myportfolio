@@ -10,35 +10,19 @@ const Education = ({ componentOffsetTop }) => {
     >
       <h1>EDUCATION</h1>
       <div className="education-container">
-        <div className="circle-date-one"></div>
-        <div className="part-one">
-          <i className="cap fas fa-graduation-cap"></i>
-          <p>COMPUTER SOFTWARE COURSE</p>
-          <p>Iran - Kermanshah</p>
-          <p>Jaberi College</p>
-        </div>
         <div className="circle-date-two"></div>
         <div className="part-two">
           <i className="cap fas fa-graduation-cap"></i>
           <p>COMPUTER SOFTWARE ENGINEERING</p>
-          <p>Iran - Kermanshah</p>
-          <p>Kermanshah Univercity</p>
-          <p>Iran - Rasht</p>
           <p>Sardar Jangal Rasht Univercity</p>
-        </div>
-        <div className="circle-date-tree"></div>
-        <div className="part-tree">
-          <i className="cap fas fa-graduation-cap"></i>
-          <p>BASIC CODING COURSE</p>
-          <p>UK - Manchester</p>
-          <p>Code Nation Company</p>
+          <p>Iran - Rasht</p>
         </div>
         <div className="circle-date-four"></div>
         <div className="part-four">
           <i className="cap fas fa-graduation-cap"></i>
           <p>FULL STACK WEB COURSE</p>
-          <p>UK - London</p>
           <p>Code Your Future Company</p>
+          <p>UK - London</p>
         </div>
         <div className="circle-date-five"></div>
       </div>

@@ -21,7 +21,7 @@
 .part-two,
 .part-tree,
 .part-four {
-  width: 20%;
+  width: 30%;
   height: 300px;
   border-top: 1px solid #25ccf7;
   margin-top: 20px;
@@ -56,15 +56,15 @@
   content: "2005";
 }
 .circle-date-two::before {
-  margin-left: -48px;
-  content: "2007 - 2009";
+  content: "2011";
 }
 .circle-date-tree::before {
   margin-left: -48px;
   content: "2013 - 2019";
 }
 .circle-date-four::before {
-  content: "2019";
+  margin-left: -48px;
+  content: "2013 - 2019";
 }
 .circle-date-five::before {
   content: "2020";
