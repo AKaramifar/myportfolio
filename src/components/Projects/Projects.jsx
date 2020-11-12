@@ -30,6 +30,23 @@ const Projects = ({ componentOffsetTop }) => {
         <div className="project-card">
           <div className="hover-link animate__animated animate__fadeIn">
             <div>
+              <p>Carbon Switch</p>
+            </div>
+            <div>
+              <a
+                href="https://app.carbonswitch.co"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <i className="fas fa-globe"></i>
+              </a>
+            </div>
+          </div>
+          <img src="projects/carbonswitch.png" alt="carbonswitch" />
+        </div>
+        <div className="project-card">
+          <div className="hover-link animate__animated animate__fadeIn">
+            <div>
               <p>Class Planner</p>
             </div>
             <div>
