@@ -23,8 +23,7 @@ const About = ({ componentOffsetTop }) => {
           development and IT infrastructure.
           <br /> I am a team player capable of adapting well to new
           circumstances and conditions, and problem solver. <br />I can adapt to
-          new environments quickly and love learning. <br />
-          Currently seeking a role as a Full Stack web developer.
+          new environments quickly and love learning.
         </p>
       </div>
     </div>
