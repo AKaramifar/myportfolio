@@ -34,7 +34,7 @@ const Projects = ({ componentOffsetTop }) => {
             </div>
             <div>
               <a
-                href="https://app.carbonswitch.co"
+                href="https://carbonswitch.herokuapp.com/"
                 target="_blank"
                 rel="noopener noreferrer"
               >
